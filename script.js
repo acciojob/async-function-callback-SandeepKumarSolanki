@@ -9,7 +9,7 @@ btn.addEventListener('click' , async ()=>{
 		console.log(data);
 		
 		let output = document.getElementById('output');
-		output.innerText = `${data}`;
+		output.innerText = `${data.title}`;
 	} catch (error) {
 		console.log(error);
 	}
